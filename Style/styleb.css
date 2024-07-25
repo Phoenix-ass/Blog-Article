@@ -9,7 +9,7 @@
     width: 100%;
 }
 .container .row{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .container .row .header{
@@ -33,12 +33,15 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 .content .card{
     flex:1;
     margin: 50px 20px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    flex-basis: 30%;
+
 }
 .content .card img{
     width: 100%;
